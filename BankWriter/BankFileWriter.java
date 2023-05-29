@@ -31,7 +31,7 @@ public class BankFileWriter {
             writer.write(transactionDetails);
             System.out.println("Transaction details written to the file.");
         } catch (IOException e) {
-            System.out.println("ERROR");
+            System.out.println("An error occurred while writing to the file.");
             e.printStackTrace();
         }
     }
